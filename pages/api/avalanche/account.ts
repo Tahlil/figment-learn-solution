@@ -15,9 +15,13 @@ export default function account(
     const client = getAvalancheClient(network);
     const chain = client.XChain();
     const keyChain = chain.keyChain();
-    const keypair = keyChain.undefined; // There is a useful method to use here
-    const secret = undefined;
-    const address = undefined;
+    const keypair = keyChain.makeKey(); // There is a useful method to use here
+    const secret = keypair.getPrivateKeyString();
+    const address = keypair.getAddressString().toString('hex');
+    console.log(keypair.getHRP());
+
+    console.log(address);
+
     res.status(200).json({
       secret,
       address,

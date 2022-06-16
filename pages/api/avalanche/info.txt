@@ -1,0 +1,3 @@
+X chain public key = X-fuji16ceph4ts0nprfffg3q6lmplj0yyk5ugyjtm7ej
+Convert the bech32 encoded address to hex using https://slowli.github.io/bech32-buffer/
+X-fuji16ceph4ts0nprfffg3q6lmplj0yyk5ugyjtm7ej -> d6321bd5707cc234a5288835fd87f279096a7104

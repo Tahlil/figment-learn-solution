@@ -1,3 +1,7 @@
-X chain public key = X-fuji16ceph4ts0nprfffg3q6lmplj0yyk5ugyjtm7ej
+X chain public key = X-fuji1t0s2vkzlpjcmgwrpjuluvkunjfwqy5jgzp8y8j
 Convert the bech32 encoded address to hex using https://slowli.github.io/bech32-buffer/
-X-fuji16ceph4ts0nprfffg3q6lmplj0yyk5ugyjtm7ej -> d6321bd5707cc234a5288835fd87f279096a7104
+X-fuji1t0s2vkzlpjcmgwrpjuluvkunjfwqy5jgzp8y8j -> 5be0a6585f0cb1b43861973fc65b93925c025248
+private key extraction using - https://www.better-converter.com/Encoders-Decoders/Base58Check-to-Hexadecimal-Decoder
+PrivateKey-2fQGyy3GYsMMnZTcuTsr5hZNYjF6y5zyhRjHDYkMMQ6zyNsEgw
+-> dae415598dde1851e03e168c65c65d48dc806b6017bba06e66b2d24eaf358f6247534cc0
+
